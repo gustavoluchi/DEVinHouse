@@ -1,5 +1,13 @@
 # DEVinHouse
 Exercícios da primeira semana do curso DEVinHouse (mais informações em: http://devinhouse.sesisenai.org.br/).
+Por fazer:
+1) organizar o código
+2) comentar o código
+3) organizar as pastas
+4) incluir transição pra abertura do menu?
+5) adicionar um minificador
+6) adicionar uma animação pro ícone do menu dropdown
+
 As instruções eram:
 
 Semana 1 - Fundamentos da Web
