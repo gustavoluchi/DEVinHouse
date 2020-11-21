@@ -1,14 +1,13 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: Arial;
   background-color: rgba(255, 255, 0, 0.1);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
+  position: relative;
 }
 
 #logo {
@@ -102,6 +101,9 @@ ul .mobile {
 }
 
 footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   background-color: #2f4a55;
   color: #fff;
@@ -115,17 +117,6 @@ footer a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 860px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-
-  footer {
-    height: 100px;
-  }
-}
 @media screen and (max-width: 600px) {
   ul .desktop {
     display: none;
@@ -138,6 +129,17 @@ footer a {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  footer {
+    height: 100px;
   }
 }
 
