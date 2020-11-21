@@ -5,7 +5,7 @@
 
 body {
   background-color: rgba(255, 255, 0, 0.1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   position: relative;
 }
@@ -33,7 +33,7 @@ body {
   padding: 0;
   background-color: #333;
   justify-content: flex-end;
-  
+
   li {
     float: left;
     width: 120px;
@@ -57,7 +57,7 @@ li:hover {
   background-color: #333;
   width: 120px;
   position: fixed;
-  top:50px;
+  top: 50px;
   right: 0px;
 }
 
@@ -136,8 +136,8 @@ footer {
 
 @media screen and (max-width: 600px) {
   iframe {
-  width: 356px;
-  height: 200px;
+    width: 356px;
+    height: 200px;
   }
   ul {
     .desktop {
