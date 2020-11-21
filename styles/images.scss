@@ -118,6 +118,18 @@ footer {
   }
 }
 
+//Layout responsivo - 2 colunas de imagens
+@media screen and (max-width: 860px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  footer {
+    height: 100px;
+  }
+}
+
 // Telas pequenas, 1 coluna de imagem
 @media screen and (max-width: 600px) {
   ul {
@@ -134,16 +146,13 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
-}
 
-//Layout responsivo - 2 colunas de imagens
-@media screen and (max-width: 860px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+  .fim {
+    height: 150px;
   }
+
   footer {
-    height: 100px;
+    height: 150px;
   }
+
 }
