@@ -2,6 +2,8 @@
 Exercícios da primeira semana do curso DEVinHouse (mais informações em: http://devinhouse.sesisenai.org.br/).
 
 Por fazer:
+
+0) adicionar uma div acima das imagens pra não ficarem cortadas
 1) organizar o código
 2) comentar o código
 3) organizar as pastas
