@@ -1,5 +1,6 @@
 # DEVinHouse
 Exercícios da primeira semana do curso DEVinHouse (mais informações em: http://devinhouse.sesisenai.org.br/).
+
 Por fazer:
 1) organizar o código
 2) comentar o código
